@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: aqua; color:White
+		}
+	</style>
+<meta charset="utf-8">
+<title>index.html</title>
+<script type="text/javascript">
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+</script>
+</head>
+
+<body onclick="MM_changeProp('text','','fontSize','100px','DIV');MM_changeProp('text','','color','Red','DIV')">
+<p><img src="Fish-Fish.jpg" width="877" height="500" alt=""/>
+</p>
+	<div id="text"><p>This is Fish the Goldfish!</p></div>
+</body>
+</html>
